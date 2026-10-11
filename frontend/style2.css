@@ -1,0 +1,137 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /*background-image: url(dashboard.webp);*/
+    background-color: white;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar Styling */
+
+/* Navbar shes */
+
+/* Hetitage image */
+
+.image-container {
+    
+    margin: 30px 0;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.image-container img {
+    width: 400px;
+    height:300px;
+    border-radius: 10px;
+    
+}
+
+.image-container .caption {
+    /* border: 2px solid rgb(15, 158, 160);
+    background: rgb(178, 288, 229);
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px 0; */
+}
+ 
+.H-container{
+    padding: 25px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    height: 350px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Hetitage image shes*/
+.image-grid {
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.image-item {
+    text-align: center;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: calc(33.333% - 20px); /* For first row: 3 images */
+}
+
+.image-item:nth-child(n+4) {
+    width: calc(50% - 20px); /* For second row: 2 images */
+}
+
+.image-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.caption {
+    
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #555;
+}
+
+
+
+
+
+.carousel-inner img {
+    max-width: 97%;  /* Ensures the image doesn't exceed the container width */
+    max-height: 500px; /* Sets a maximum height for the images */
+    width: auto;       /* Ensures the image scales proportionally */
+    height: auto;      /* Maintains aspect ratio */
+    margin: auto;   
+  }
+
+  /* Footer Styling */
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333; 
+    color: #fff;           
+    text-align: center;    
+    padding: 20px 0;       
+    gap: 30px;
+  }
+  
+  .footer-content h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .footer-content p {
+    margin: 5px 0; 
+    font-size: 16px;
+  }
+  
+  .footer-content a {
+    color: #00ffcc; 
+    text-decoration: none; 
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline; 
+  }
+  .content {
+    flex: 1; /* Pushes the footer to the bottom if there's not enough content */
+  }

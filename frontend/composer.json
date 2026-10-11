@@ -1,0 +1,17 @@
+{
+    "name": "robiulislam/frontend",
+    "autoload": {
+        "psr-4": {
+            "Robiulislam\\Frontend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Robiul Islam",
+            "email": "99959790+Robiul0Islam@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^4.2"
+    }
+}
